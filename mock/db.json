@@ -1,0 +1,59 @@
+{
+  "servicios": [
+    {
+      "nombre": "Auxilio Mecanico",
+      "descripcion": "que será auxilio mecánico",
+      "id": "14515d17-bbbb-4c60-a3ce-105618d8f6c6"
+    },
+    {
+      "nombre": "Chofer reemplazo",
+      "descripcion": "María está solicitando un chofer de reemplazo",
+      "id": "bb3c7264-95fd-4dc5-b000-dbc4a7da0315"
+    },
+    {
+      "nombre": "Medico a domicilio",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "id": "3c847323-655c-428d-9dd3-3903e74bf004"
+    },
+    {
+      "nombre": "Ambulancia",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "id": "29050086-b4e5-43fd-8209-18e19ab517a3"
+    },
+    {
+      "nombre": "Gasfitero",
+      "descripcion": "aldape",
+      "id": "24dfb217-adae-435a-b2bd-d5481fedfc25"
+    },
+    {
+      "nombre": "Electricidad",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "id": "58c526d3-01f5-41be-8b1a-d886bc02cd5c"
+    },
+    {
+      "nombre": "Mucama",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "id": "2a22b2bc-66ec-4852-bde6-e08d440ad65d"
+    },
+    {
+      "nombre": "Albañil",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "e9b16206-753a-4ddd-bdc5-5ac6e22792e2"
+    },
+    {
+      "nombre": "Chofer",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "8370c314-894c-466d-b4d1-433d228a4610"
+    },
+    {
+      "nombre": "Auxilio medico",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "9a3d07cb-3d09-409c-9eea-65502bfd3cb4"
+    },
+    {
+      "nombre": "Electrodomésticos del hogar",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "fde7edf6-7a03-455e-b969-f2b03e0d35bf"
+    }
+  ]
+}
