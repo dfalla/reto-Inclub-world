@@ -5,7 +5,7 @@ export const ButtonDelete = ({id, nombre, descripcion}) => {
   const dispatch = useDispatch();
   const remove = () =>{
       Swal.fire({
-        title: `Desea eliminar a ${nombre} con ${descripcion}?`,
+        title: `Desea eliminar el servicio ${nombre}?`,
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#d33',

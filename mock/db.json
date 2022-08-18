@@ -2,7 +2,7 @@
   "servicios": [
     {
       "nombre": "Auxilio Mecanico",
-      "descripcion": "que será auxilio mecánico",
+      "descripcion": "cambio de mecanico",
       "id": "14515d17-bbbb-4c60-a3ce-105618d8f6c6"
     },
     {
@@ -22,7 +22,7 @@
     },
     {
       "nombre": "Gasfitero",
-      "descripcion": "aldape",
+      "descripcion": "Gasfitero llegará a las 8 a.m.",
       "id": "24dfb217-adae-435a-b2bd-d5481fedfc25"
     },
     {
@@ -54,6 +54,11 @@
       "nombre": "Electrodomésticos del hogar",
       "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "id": "fde7edf6-7a03-455e-b969-f2b03e0d35bf"
+    },
+    {
+      "nombre": "nuevo servicio",
+      "descripcion": "asdsadasdas",
+      "id": "68fa5a29-51bb-4411-95a7-d8b784d16ec8"
     }
   ]
 }

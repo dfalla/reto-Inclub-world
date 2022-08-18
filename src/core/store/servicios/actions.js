@@ -14,9 +14,14 @@ const getServicios = () =>{
 };
 
 const getOneServicio = (nombre) =>{
-    return(dispatch) => {
+    return (dispatch) => {
         dispatch(ServiciosActions.getServicio(nombre));
-        // ServiciosHttp.getOne(nombre)
+    }
+}
+
+const getOneServicioId = (id) => {
+    return (dispatch) =>{
+        ServiciosHttp.getOne(id).then(res => dispatch(ServiciosActions.setServicio(res)));
     }
 }
 
@@ -50,5 +55,6 @@ export const ServiciosActions = {
     getOneServicio,
     createServicio,
     removeServicio,
-    updateServicio
+    updateServicio,
+    getOneServicioId
 }

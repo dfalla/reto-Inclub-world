@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
     servicios: [],
+    servicio: [],
     isServiciosLoaded: false,
     isServiciosLoading: false
 }
@@ -13,11 +14,12 @@ export const serviciosSlice = createSlice({
         setServicios: (state, action) => {
             state.servicios = action.payload;
         },
+        setServicio: (state, action) => {
+            state.servicio = action.payload;
+        },
         getServicio: (state, action) => {
-            // console.log(action.payload);
             const keys = ['nombre', 'descripcion']
             const servicios = state.servicios.filter((servicio) => keys.some((key)=>servicio[key].toLowerCase().includes(`${action.payload}`)));
-            console.log(servicios);
             return{
                 ...state,
                 servicios

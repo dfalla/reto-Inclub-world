@@ -1,9 +1,8 @@
 import { useServicios } from "../store/servicios";
-import { ButtonEdit, ButtonDelete } from "./";
+import { ButtonEdit, ButtonDelete, ButtonDetails } from "./";
 
 export const List = () => {
   const { servicios } = useServicios();
-//   console.log(servicios);
   return (
     <>
         <div className="row">
@@ -17,10 +16,13 @@ export const List = () => {
                             </div>
                             <div className="card-footer">
                                 <ButtonEdit
-                                    id = {servicio.id}
+                                    id = { servicio.id }
                                 />
                                 <ButtonDelete
-                                    {...servicio}
+                                    { ...servicio }
+                                />
+                                <ButtonDetails 
+                                    id = { servicio.id }
                                 />
                             </div>
                         </div>

@@ -55,7 +55,7 @@ export const Form = () => {
             descripcion: res.descripcion
           }));
         }
-      }, [params.id]);
+    }, [params.id]);
       
   return ( 
     <div className="container mt-5">

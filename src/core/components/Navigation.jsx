@@ -9,7 +9,7 @@ export const Navigation = () => {
         <Navbar collapseOnSelect expand="lg" variant="dark" bg="dark">
             <Container>
                 
-                <Navbar.Brand as={NavLink} to="/">Reto Solera</Navbar.Brand>
+                <Navbar.Brand as={NavLink} to="/">Inclub World</Navbar.Brand>
                
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
@@ -21,9 +21,6 @@ export const Navigation = () => {
                                 Crear Servicios
                             </NavDropdown.Item>
                         </NavDropdown>
-                        {/* <Nav.Link as={NavLink} to="/comprar">Autos</Nav.Link>
-                        <Nav.Link as={NavLink} to="/registro-pagos">Salud</Nav.Link>
-                        <Nav.Link as={NavLink} to="/registro-pagos">Hogar</Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

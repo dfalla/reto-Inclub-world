@@ -7,7 +7,7 @@ export const ButtonAdd = () => {
   const goToCrear = () => navigate('servicios/crear-servicio');
   return (
     <button
-      className="btn btn-primary"
+      className="btn btn-outline-primary"
       onClick={ goToCrear }
     >
       Nuevo Servicio
